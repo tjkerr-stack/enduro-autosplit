@@ -14,7 +14,7 @@ This only supports BizHawk at present, though extending to other emulators shoul
 
 ## Timing Method
 
-This is designed for IGT timing.  Enduro Racer has some lazy programming around the handling of fractional seconds.  While within a track the timer will count up, and then "flip" to the erroneous second count when splitting after crossing the finish line.  All split times should match what is shown on the end screen.
+This is designed for IGT timing.  Enduro Racer has some lazy programming around the handling of fractional seconds.  While within a track the timer will count up as expected, and then "flip" to the erroneous second count immediately before splitting once you cross the finish line.  All split times should thus match what is shown on the end screen.
 
 ## Splits
 
